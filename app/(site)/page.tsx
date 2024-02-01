@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Hero from "@/components/Hero/Hero";
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
   return (
     <>
     <Navbar/>
+    <Hero/>
     
     </>
   );
