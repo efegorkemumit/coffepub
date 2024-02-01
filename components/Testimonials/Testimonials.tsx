@@ -94,12 +94,12 @@ function Testimonials() {
             spaceBetween: 20,
           },
           768: {
-            slidesPerView: 4,
-            spaceBetween: 40,
+            slidesPerView: 3,
+            spaceBetween: 30,
           },
           1024: {
             slidesPerView: 5,
-            spaceBetween: 50,
+            spaceBetween: 40,
           },
         }}
         modules={[Pagination]}
@@ -109,13 +109,13 @@ function Testimonials() {
 
                 {TestimonialsData.map((testimon)=>(
 
-                <SwiperSlide>
+                <SwiperSlide  key={testimon.id}>
                    <TestimonialItem 
                    aosDelay={testimon.aosDelay}
                    description={testimon.description}
                    img={testimon.img}
                    name={testimon.name}
-                   key={testimon.id}
+                  
 
                    >
 

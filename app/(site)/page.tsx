@@ -9,6 +9,7 @@ import Services from "@/components/Services/Services";
 import Banner from "@/components/Banner/Banner";
 import PlayStore from "@/components/PlayStore/PlayStore";
 import Testimonials from "@/components/Testimonials/Testimonials";
+import Footer from "@/components/Footer/Footer";
 
 
 
@@ -30,7 +31,7 @@ export default function Home() {
     <Banner/>
     <PlayStore/>
     <Testimonials/>
-    <Banner/>
+    <Footer/>
     </>
   );
 }
