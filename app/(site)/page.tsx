@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import Hero from "@/components/Hero/Hero";
 import Services from "@/components/Services/Services";
 import Banner from "@/components/Banner/Banner";
+import PlayStore from "@/components/PlayStore/PlayStore";
 
 
 
@@ -26,6 +27,7 @@ export default function Home() {
     <Hero/>
     <Services/>
     <Banner/>
+    <PlayStore/>
     <Services/>
     
     </>
