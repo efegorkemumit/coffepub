@@ -1,5 +1,4 @@
 import React from 'react'
-import ServiceItem from './ServiceItem'
 import TestimonialItem from './TestimonialItem'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';

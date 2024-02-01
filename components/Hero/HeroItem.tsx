@@ -37,7 +37,7 @@ const  HeroItem: React.FC<HeroItemProps>=({
             <div className='flex justify-center items-center'>
 
                 <HeroButton label='Visit'
-                icon={<BiChevronRight/>} 
+                icon={BiChevronRight} 
                 
                 ></HeroButton>
             </div>

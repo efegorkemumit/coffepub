@@ -79,7 +79,7 @@ const Navbar: React.FC=()=> {
                 <div  data-aos="fade-down"
                 data-aos-once="true" data-aos-delay="500">
  <OrderButton 
-                    icon={<FaCoffee/>} label='Order'></OrderButton>
+                    icon={FaCoffee} label='Order'></OrderButton>
                 </div>
                
 
