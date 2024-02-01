@@ -9,7 +9,7 @@ function Banner() {
     <div className="bg-[url('/images/h1.jpg')] bg-center
     bg-no-repeat bg-cover h-full w-full">
         <div className='min-h-[550px] flex justify-center items-center
-        py-12'>
+        py-12'> 
 
             <div className='container'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
