@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Hero from "@/components/Hero/Hero";
+import Services from "@/components/Services/Services";
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
     <>
     <Navbar/>
     <Hero/>
+    <Services/>
     
     </>
   );

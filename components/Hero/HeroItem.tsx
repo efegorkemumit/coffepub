@@ -20,7 +20,7 @@ const  HeroItem: React.FC<HeroItemProps>=({
     <div className='grid grid-cols-1 md:grid-cols-2'>
         
         <div className='flex flex-col justify-center pt-10 gap-5 text-center'>
-            <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold'>
+            <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold font-second2'>
                 {label1}
               {" "}
               <span className='font-pacifiko

@@ -56,7 +56,7 @@ function Hero() {
       >
         {heroItems.map((item, index)=>(
 
-          <SwiperSlide>
+          <SwiperSlide key={index}>
          
          <HeroItem 
          label1={item.label1}
